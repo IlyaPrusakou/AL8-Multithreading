@@ -69,11 +69,11 @@ namespace Advanced_Lesson_6_Multithreading
         /// и информировании об окончании рассылки (вывод на консоль информации 
         /// удачно ли завершилась отсылка). 
         /// </summary>
-        public async static void LA8_P5_5()
+        public async static void LA8_P5_5() //
         {
-            string letter = "bla bla bla bla bla bla bla bla bla bla bla!!!!!!!!!!!!";
-            Task<bool> ggg =  SmptServer.SendEmail(letter);
-            Console.WriteLine(ggg.Result);
+            string letter = "bla bla bla bla bla bla bla bla bla bla bla!!!!!!!!!!!!"; //
+            Task<bool> ggg =  SmptServer.SendEmail(letter); //
+            Console.WriteLine(ggg.Result); //
         }
     }    
 }
